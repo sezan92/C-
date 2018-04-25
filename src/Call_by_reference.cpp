@@ -1,0 +1,20 @@
+#include<iostream>
+void func(int &x, int &y);
+using namespace std;
+const string yahabibi = "Ya habibi";
+int main(){
+int x=10;
+int y=10;
+cout<<"Previous values "<<x<<" "<<y<<std::endl;
+func(x,y);
+cout<<"New values "<<x<<" "<<y<<std::endl;
+return 0;
+}
+void func(int &x, int &y){
+int new_x = x;
+int new_y = y;
+new_x*=10;
+new_y++;
+x = new_x;
+y = new_y;
+}

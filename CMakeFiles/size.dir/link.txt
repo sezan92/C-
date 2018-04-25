@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/size.dir/size.cpp.o  -o size -rdynamic 

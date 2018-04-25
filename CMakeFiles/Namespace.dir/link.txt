@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/Namespace.dir/Namespace.cpp.o  -o Namespace -rdynamic 
